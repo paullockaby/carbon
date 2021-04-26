@@ -10,7 +10,7 @@ RUN apk add --no-cache curl
 
 # install python dependencies
 COPY requirements.txt /
-RUN python3 -m venv /opt/graphite && \
+RUN python3 -m venv --system-site-packages /opt/graphite && \
     source /opt/graphite/bin/activate && \
     pip3 install --no-cache-dir -r /requirements.txt
 
