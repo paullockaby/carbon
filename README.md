@@ -4,7 +4,7 @@ daemon and that's it.
 
 ## Running on Docker
 
-This volume expects to listen on two ports and have two mounted volumes. It
+This volume expects to listen on three ports and have two mounted volumes. It
 needs to listen on port 2003 TCP, 2004 TCP, and 7002 TCP. It needs to have
 `/opt/graphite/conf` and `/opt/graphite/storage` mounted.
 
