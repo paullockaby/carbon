@@ -1,4 +1,4 @@
-FROM python:3.9.4-alpine@sha256:bc752e72df41ec3a3f06eaa59a98e7fecabc36fd284bd309232e714fddd805e9
+FROM python:3.9.4-alpine@sha256:2a9b93b032246dabbec008c1527bd0ef31947e7fd351a200aec5a46eea68d776
 
 # github metadata
 LABEL org.opencontainers.image.source https://github.com/paullockaby/carbon
