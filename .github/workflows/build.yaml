@@ -1,7 +1,7 @@
 name: Build Container
 
 on:
-  create:
+  push:
     tags:
     - "v*"
 
