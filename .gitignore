@@ -1,0 +1,5 @@
+.*.swp
+*~
+
+# ignore the storage directory that we use in our example
+storage
