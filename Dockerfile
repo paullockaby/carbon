@@ -1,4 +1,4 @@
-FROM python:3.9.4-slim-buster@sha256:5aa114b5c49311ae48a9e717a8c829581bb18a01f33c3130968a6ecc0e2c24c0 AS base
+FROM python:3.9.4-slim-buster@sha256:bca2bcc8afda3abca3f73ff3d9ac146076aa47d09a226290eb3c99f175b1371a AS base
 
 # github metadata
 LABEL org.opencontainers.image.source https://github.com/paullockaby/carbon
