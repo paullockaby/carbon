@@ -11,6 +11,6 @@ constantly==15.1.0
 hyperlink==21.0.0
 idna==3.1
 incremental==21.3.0
-six==1.15.0
+six==1.16.0
 whisper==1.1.8
 zope.interface==5.4.0
