@@ -4,7 +4,7 @@ Twisted==21.2.0
 urllib3==1.26.4
 
 # transitive dependencies
-attrs==21.1.0
+attrs==21.2.0
 Automat==20.2.0
 carbon==1.1.8
 constantly==15.1.0
