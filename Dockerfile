@@ -1,7 +1,7 @@
 FROM python:3.9.5-slim-buster@sha256:80b238ba357d98813bcc425f505dfa238f49cf5f895492fc2667af118dccaa44 AS base
 
 # github metadata
-LABEL org.opencontainers.image.source https://github.com/paullockaby/carbon
+LABEL org.opencontainers.image.source=https://github.com/paullockaby/carbon
 
 FROM base AS builder
 
