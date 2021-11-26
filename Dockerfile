@@ -1,4 +1,4 @@
-FROM python:3.9.7-slim-bullseye@sha256:aef632387d994b410de020dfd08fb1d9b648fc8a5a44f332f7ee326c8e170dba AS base
+FROM python:3.9.9-slim-bullseye@sha256:00a0ecccb4ace2774dbf4cf5338e3568ce9dd82f7f1f8137881983342f2bdf7b AS base
 
 # github metadata
 LABEL org.opencontainers.image.source=https://github.com/paullockaby/carbon
