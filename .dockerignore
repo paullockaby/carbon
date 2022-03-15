@@ -1,9 +1,10 @@
-.*.swp
-*~
-.DS_Store
-.DS_Store?
-.Trashes
-Thumbs.db
+# general exceptions
+**/.*.swp
+**/*~
+**/.DS_Store
+**/.DS_Store?
+**/.Trashes
+**/Thumbs.db
 
 # ignore the storage directory that we use in our example
 storage
